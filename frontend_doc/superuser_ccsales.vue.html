@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>superuser/ccsales.vue - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Modules</li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="components_EduAdmin_searchItem.module_vue.html">vue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="components_EduAdmin_searchItem.module_vue.html#~submitSearch">submitSearch</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-aboutUs.html">aboutUs</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-aboutUs.html#.data">data</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-AddCc.html">AddCc</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddCc.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddCc.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-addClass.html">addClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-addClass.html#~addClass">addClass</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-AddEduAdmin.html">AddEduAdmin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddEduAdmin.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddEduAdmin.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-AddSeller.html">AddSeller</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddSeller.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddSeller.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-adjustCourse.html">adjustCourse</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adjustCourse.html#~submitAdd">submitAdd</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-adjustSection.html">adjustSection</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adjustSection.html#~submitAdd">submitAdd</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-adult.html">adult</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adult.html#~quit">quit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adult.html#~relation">relation</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adult.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adult.html#~show">show</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adult.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-assigncc.html">assigncc</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-assigncc.html#~assign">assign</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-assigncc.html#~cc">cc</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-assigncc.html#~handleClose">handleClose</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-assigncc.html#~refresh">refresh</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-cancelClass.html">cancelClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-cancelClass.html#~cancel">cancel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-cancelClass.html#~updateData">updateData</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-ccsales.html">ccsales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkpeer7days">checkpeer7days</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkpeerinfo">checkpeerinfo</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkpeermonth">checkpeermonth</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkpeerToday">checkpeerToday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkpeeryear">checkpeeryear</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checktotal7days">checktotal7days</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checktotalmonth">checktotalmonth</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkTotalToday">checkTotalToday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checktotalyear">checktotalyear</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-changePass.html">changePass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-changePass.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-changePass.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-changepss.html">changepss</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-changepss.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-changepss.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-checkRefund.html">checkRefund</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-checkRefund.html#~organize">organize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-checkRefund.html#~passRefund">passRefund</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-checkRefund.html#~updateRefund">updateRefund</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-childInformation.html">childInformation</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-childInformation.html#.data">data</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-courseItem.html">courseItem</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-courses.html">courses</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-courses.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-courses.html#~changeNotShow">changeNotShow</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-courses.html#~changeshow">changeshow</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-customerlist.html">customerlist</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-customerlist.html#~addRecord">addRecord</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-customerlist.html#~refresh">refresh</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-customerlist.html#~submit">submit</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-CustomerList_.html">CustomerList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~changeinfo">changeinfo</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~check">check</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~del">del</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~delcustomer">delcustomer</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~edit">edit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~refresh">refresh</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~submit">submit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~submit1">submit1</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-EduAdmin.html">EduAdmin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-EduAdmin.html#~selectHandle">selectHandle</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-formula.html">formula</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-fund.html">fund</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-fund.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-fund.html#~cancel">cancel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-fund.html#~fund">fund</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-headbar.html">headbar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-headbar.html#~handleCommand">handleCommand</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-heading.html">heading</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-heading.html#~show">show</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-human.html">human</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-human.html#.data">data</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-land.html">land</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-land.html#~logpass">logpass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-land.html#~logphone">logphone</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-land.html#~register">register</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-land.html#~sendcodes">sendcodes</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-log.html">log</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~filterTag">filterTag</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~getlog">getlog</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~sendMsg">sendMsg</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~submitForm">submitForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~submitForm2">submitForm2</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-mainpage.html">mainpage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-mainpage.html#~getdata">getdata</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-memlist.html">memlist</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-memlist.html#~del">del</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-memlist.html#~edit">edit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-memlist.html#~refresh">refresh</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-memlist.html#~submit">submit</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-page.html">page</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-page.html#.data">data</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-parent.html">parent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-parent.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-parent.html#~board">board</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-parent.html#~quit">quit</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-password.html">password</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-password.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-password.html#~pass">pass</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-pay.html">pay</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-pay.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-pay.html#~pay">pay</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-payFee.html">payFee</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-payFee.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-payFee.html#~pay">pay</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-qrcode.html">qrcode</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-qrcode.html#~getQRcode">getQRcode</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-refund.html">refund</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refund.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refund.html#~cancel">cancel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refund.html#~fund">fund</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-refundApplication.html">refundApplication</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refundApplication.html#~refresh">refresh</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refundApplication.html#~willRefund">willRefund</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-refundHistory.html">refundHistory</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refundHistory.html#~filterTag">filterTag</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refundHistory.html#~refresh">refresh</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-register.html">register</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-register.html#~getParams">getParams</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-register.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-register.html#~sendMsg">sendMsg</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-register.html#~submitForm">submitForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-register.html#~submitPay">submitPay</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-sales.html">sales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sales.html#~getSales">getSales</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-salesrecords.html">salesrecords</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-salesrecords.html#~getSales">getSales</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-searchClass.html">searchClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~addingStudent">addingStudent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~addStudent">addStudent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~changeCourse">changeCourse</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~changeDay">changeDay</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~changeSection">changeSection</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~changeSuccess">changeSuccess</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~resetData">resetData</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~setHeaderColor">setHeaderColor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~setOutHeaderColor">setOutHeaderColor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~showDialogToChangeCourse">showDialogToChangeCourse</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~showDialogToChangeSection">showDialogToChangeSection</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~updateData">updateData</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-Seller.html">Seller</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Seller.html#~onPassword">onPassword</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Seller.html#~onQRcode">onQRcode</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Seller.html#~onSales">onSales</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-sellerlogin.html">sellerlogin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerlogin.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerlogin.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-sellerpage.html">sellerpage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerpage.html#~changepass">changepass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerpage.html#~getQRcode">getQRcode</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerpage.html#~logout">logout</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerpage.html#~showcenter">showcenter</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerpage.html#~showqrcode">showqrcode</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-sellersales.html">sellersales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkpeer7days">checkpeer7days</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkpeerinfo">checkpeerinfo</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkpeermonth">checkpeermonth</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkpeerToday">checkpeerToday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkpeeryear">checkpeeryear</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checktotal7days">checktotal7days</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checktotalmonth">checktotalmonth</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkTotalToday">checkTotalToday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checktotalyear">checktotalyear</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-signup.html">signup</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-signup.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-signup.html#~signUp">signUp</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-Superuser.html">Superuser</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onAddCc">onAddCc</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onAddEduAdmin">onAddEduAdmin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onAddSeller">onAddSeller</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onAssign">onAssign</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onCcList">onCcList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onCcSales">onCcSales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onChangePass">onChangePass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onCustomerList">onCustomerList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onEduAdminList">onEduAdminList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onLog">onLog</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onMain">onMain</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onSellerList">onSellerList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onSellerSales">onSellerSales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onTeacherSales">onTeacherSales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onThird">onThird</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~toggleSelection">toggleSelection</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-syllabus.html">syllabus</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-syllabus.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-syllabus.html#~changeNotShow">changeNotShow</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-syllabus.html#~changeShow">changeShow</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-teachersales.html">teachersales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-teachersales.html#~filterTag">filterTag</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-teachersales.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-teachersales.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><a href="global.html">Globals</a></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onList">onList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onPassword">onPassword</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onRecord">onRecord</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onRefund">onRefund</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onSales">onSales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onSignUp">onSignUp</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#toggleSelection">toggleSelection</a></span></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">superuser/ccsales.vue</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>&lt;template>
+&lt;div>
+  &lt;el-switch v-model="total" active-text="总体业绩" inactive-text="个人业绩" active-color="#66b1ffc2"
+  inactive-color="#30313373">&lt;/el-switch>
+  &lt;div>
+  &lt;el-card shadow="hover" v-show="total === true">
+    &lt;el-button type="text" class="button" icon="el-icon-refresh
+    ">&lt;/el-button>
+    &lt;span>今日业绩&lt;/span>
+    &lt;el-row class="today">
+        &lt;el-col :span="3">{{total_today.flow_num}}&lt;/el-col>
+        &lt;el-col :span="3">{{total_today.audition_num}}&lt;/el-col>
+        &lt;el-col :span="3">{{total_today.audition_income}}&lt;/el-col>
+        &lt;el-col :span="3">{{total_today.signup_num}}&lt;/el-col>
+        &lt;el-col :span="3">{{total_today.signup_income}}&lt;/el-col>
+        &lt;el-col :span="3">{{total_today.audition_rate}}%&lt;/el-col>
+        &lt;el-col :span="3">{{total_today.signup_rate}}%&lt;/el-col>
+    &lt;/el-row>
+    &lt;el-row class="todaydes">
+        &lt;el-col :span="3">邀约人数&lt;/el-col>
+        &lt;el-col :span="3">试听人数&lt;/el-col>
+        &lt;el-col :span="3">注册试听收入&lt;/el-col>
+        &lt;el-col :span="3">报名人数&lt;/el-col>
+        &lt;el-col :span="3">报名收入&lt;/el-col>
+        &lt;el-col :span="3">试听率&lt;/el-col>
+        &lt;el-col :span="3">试听报名率&lt;/el-col>
+    &lt;/el-row>
+  &lt;/el-card>
+  &lt;el-card shadow="hover" v-show="total === true">
+    &lt;el-button type="text" class="button" icon="el-icon-refresh
+    ">&lt;/el-button>
+    &lt;span>过去七天&lt;/span>
+    &lt;div id="total1">
+    &lt;div id="total_7days" style="width:1200px; height:500px">&lt;/div>
+  &lt;/div>
+  &lt;/el-card>
+  &lt;el-card shadow="hover" v-show="total === true">
+    &lt;el-button type="text" class="button" icon="el-icon-refresh
+    ">&lt;/el-button>
+    &lt;span>十二个月的业绩&lt;/span>
+    &lt;div id="total2">
+    &lt;div id="total_month" style="width:1200px; height:500px">&lt;/div>
+  &lt;/div>
+  &lt;/el-card>
+  &lt;el-card shadow="hover" v-show="total === true">
+    &lt;el-button type="text" class="button" icon="el-icon-refresh
+    ">&lt;/el-button>
+    &lt;span>近两年业绩&lt;/span>
+    &lt;div id="total3">
+    &lt;div id="total_year" style="width:1200px; height:500px">&lt;/div>
+  &lt;/div>
+  &lt;/el-card>
+  &lt;/div>
+  &lt;div>
+  &lt;el-form :inline="true" :model="form" v-show="total !== true">
+  &lt;el-form-item label="地推姓名">
+    &lt;el-input v-model="form.username" placeholder="姓名">&lt;/el-input>
+  &lt;/el-form-item>
+  &lt;el-form-item>
+    &lt;el-button type="primary" @click="checkpeerinfo()">查询&lt;/el-button>
+  &lt;/el-form-item>
+  &lt;/el-form>
+  &lt;el-card shadow="hover" v-show="total !== true">
+    &lt;el-button type="text" class="button" icon="el-icon-refresh
+    ">&lt;/el-button>
+    &lt;span>今日业绩&lt;/span>
+    &lt;el-row class="today">
+        &lt;el-col :span="3">{{total_today.flow_num}}&lt;/el-col>
+        &lt;el-col :span="3">{{total_today.audition_num}}&lt;/el-col>
+        &lt;el-col :span="3">{{total_today.audition_income}}&lt;/el-col>
+        &lt;el-col :span="3">{{total_today.signup_num}}&lt;/el-col>
+        &lt;el-col :span="3">{{total_today.signup_income}}&lt;/el-col>
+        &lt;el-col :span="3">{{total_today.audition_rate}}%&lt;/el-col>
+        &lt;el-col :span="3">{{total_today.signup_rate}}%&lt;/el-col>
+    &lt;/el-row>
+    &lt;el-row class="todaydes">
+        &lt;el-col :span="3">邀约人数&lt;/el-col>
+        &lt;el-col :span="3">试听人数&lt;/el-col>
+        &lt;el-col :span="3">注册试听收入&lt;/el-col>
+        &lt;el-col :span="3">报名人数&lt;/el-col>
+        &lt;el-col :span="3">报名收入&lt;/el-col>
+        &lt;el-col :span="3">试听率&lt;/el-col>
+        &lt;el-col :span="3">试听报名率&lt;/el-col>
+    &lt;/el-row>
+  &lt;/el-card>
+  &lt;el-card shadow="hover" v-show="total !== true">
+    &lt;span>过去七天&lt;/span>
+    &lt;div id="peer1">
+    &lt;div id="peer_7days" style="width:1200px; height:500px">&lt;/div>
+  &lt;/div>
+  &lt;/el-card>
+  &lt;el-card shadow="hover" v-show="total !== true">
+    &lt;span>本月业绩&lt;/span>
+    &lt;div id="peer2">
+    &lt;div id="peer_month" style="width:1200px; height:500px">&lt;/div>
+  &lt;/div>
+  &lt;/el-card>
+  &lt;el-card shadow="hover" v-show="total !== true">
+    &lt;span>本年业绩&lt;/span>
+    &lt;div id="peer3">
+    &lt;div id="peer_year" style="width:1200px; height:500px">&lt;/div>
+  &lt;/div>
+  &lt;/el-card>
+  &lt;/div>
+&lt;/div>
+&lt;/template>
+&lt;style scoped>
+.today {
+  font-size: 25px;
+  text-align: center;
+}
+.todaydes {
+  text-align: center;
+}
+.el-card {
+  margin: 20px;
+}
+.bread {
+  margin: -20px -20px 10px -20px;
+  height: 40px;
+  border-left: 10px solid #48576a;
+  background-color: white;
+}
+.el-breadcrumb {
+  font-size: 16px;
+  line-height: 3;
+}
+&lt;/style>
+&lt;script>
+/**
+ * 课程顾问业绩模块
+ * @module ccsales
+ */
+import { getCookie } from '@/utils/utils';
+import DIC from '@/dictionary.json';
+
+const echarts = require('echarts');
+
+export default {
+  data() {
+    return {
+      /**
+     * @prop {Boolean} total 展示总体业绩
+     * @prop {Object} lastyear 去年业绩列表
+     * @prop {Object} thisyear 今年业绩列表
+     * @prop {Object} week 本周日期列表
+     * @prop {Object} week_flow_num 本周流量总数列表
+     * @prop {Object} week_audition_num 本周试听总数列表
+     * @prop {Object} week_audition_income 本周试听收入列表
+     * @prop {Object} week_signup_num 本周报名总数列表
+     * @prop {Object} week_signup_income 本周报名收入列表
+     * @prop {Object} week_audition_rate 本周试听率列表
+     * @prop {Object} week_signup_rate 本周报名率列表
+     * @prop {Object} month 本月日期列表
+     * @prop {Object} month_flow_num 本月流量总数列表
+     * @prop {Object} month_audition_num 本月试听总数列表
+     * @prop {Object} month_audition_income 本月试听收入列表
+     * @prop {Object} month_signup_num 本月报名总数列表
+     * @prop {Object} month_signup_income 本月报名收入列表
+     * @prop {Object} month_audition_rate 本月试听率列表
+     * @prop {Object} month_signup_rate 本月报名率
+     * @prop {Object} peer_today 个人今日业绩列表
+     * @prop {Object} total_today 总体今日业绩列表
+     */
+      total: true,
+      lastyear: [],
+      thisyear: [],
+      week: [],
+      week_flow_num: [],
+      week_audition_num: [],
+      week_audition_income: [],
+      week_signup_num: [],
+      week_signup_income: [],
+      week_audition_rate: [],
+      week_signup_rate: [],
+      month: [],
+      month_flow_num: [],
+      month_audition_num: [],
+      month_audition_income: [],
+      month_signup_num: [],
+      month_signup_income: [],
+      month_audition_rate: [],
+      month_signup_rate: [],
+      peername: '',
+      form: {
+        username: '',
+      },
+      total_today: {
+        flow_num: 1,
+        audition_num: 2,
+        audition_income: 3,
+        signup_num: 4,
+        signup_income: 5,
+        audition_rate: '100%',
+        signup_rate: '80%',
+      },
+      peer_today: {
+        flow_num: 1,
+        audition_num: 2,
+        audition_income: 3,
+        signup_num: 4,
+        signup_income: 5,
+        audition_rate: '100%',
+        signup_rate: '80%',
+      },
+    };
+  },
+  methods: {
+    /**
+     * @function checkpeerinfo
+     * @description 查看个人今日业绩
+     */
+    checkpeerinfo() {
+      this.peername = this.form.username;
+      this.axios({
+        method: 'post',
+        url: 'data/today_cc_grades',
+        data: {
+          name: this.peername,
+        },
+        headers: { 'X-CSRFToken': getCookie('csrftoken') },
+      }).then((response) => {
+        if (response.data.error === DIC.STATUS_CODE.Success) {
+          this.peer_today = response.data;
+          this.$options.methods.checkpeerToday(this);
+          this.$options.methods.checkpeer7days(this);
+          this.$options.methods.checkpeermonth(this);
+          this.$options.methods.checkpeeryear(this);
+        } else {
+          this.$message.error('用户名不存在!');
+        }
+      });
+    },
+    /**
+     * @function checkTotalToday
+     * @description 查看总体今日业绩
+     */
+    checkTotalToday() {
+      this.axios({
+        method: 'post',
+        url: 'data/today_cc_grades',
+        data: {
+          name: '',
+        },
+        headers: { 'X-CSRFToken': getCookie('csrftoken') },
+      }).then((response) => {
+        this.total_today = response.data;
+      });
+    },
+    /**
+     * @function checkpeerToday
+     * @description 查看个人今日业绩
+     */
+    checkpeerToday(a) {
+      const that = a;
+      that
+        .axios({
+          method: 'post',
+          url: 'data/today_cc_grades',
+          data: {
+            name: that.peername,
+          },
+          headers: { 'X-CSRFToken': getCookie('csrftoken') },
+        })
+        .then((response) => {
+          if (response.data.error === DIC.STATUS_CODE.Success) {
+            that.peer_today = response.data;
+          } else {
+            that.$message.error('用户名不存在!');
+          }
+        });
+    },
+    /**
+     * @function checktotalmonth
+     * @description 查看总体本月业绩
+     */
+    checktotalmonth() {
+      this.axios({
+        method: 'post',
+        url: 'data/months_cc_grades',
+        data: {
+          name: '',
+        },
+        headers: { 'X-CSRFToken': getCookie('csrftoken') },
+      }).then((response) => {
+        if (response.data.list[0].error === DIC.STATUS_CODE.Success) {
+          for (let i = 0; i &lt; response.data.list.length; i += 1) {
+            this.month_flow_num[i] = response.data.list[i].flow_num;
+            this.month_audition_num[i] = response.data.list[i].audition_num;
+            this.month_audition_income[i] =
+              response.data.list[i].audition_income;
+            this.month_signup_num[i] = response.data.list[i].signup_num;
+            this.month_signup_income[i] = response.data.list[i].signup_income;
+            this.month_audition_rate[i] = response.data.list[i].audition_rate;
+            this.month_signup_rate[i] = response.data.list[i].signup_rate;
+            this.month[i] = i + 1;
+          }
+          const colors = [
+            '#5793f3',
+            '#d14a61',
+            '#675bba',
+            '#ffd85c',
+            '#67c23a',
+            '#1b7070',
+            '#ef00b8',
+          ];
+          const totalmonthChart = echarts.init(
+            document.getElementById('total_month'),
+          );
+          totalmonthChart.resize();
+          totalmonthChart.setOption({
+            color: colors,
+            tooltip: {
+              trigger: 'axis',
+              axisPointer: {
+                type: 'cross',
+              },
+            },
+            grid: {
+              right: '20%',
+            },
+            toolbox: {
+              feature: {
+                dataView: { show: true, readOnly: false },
+                restore: { show: true },
+                saveAsImage: { show: true },
+              },
+            },
+            legend: {
+              data: [
+                '邀约人数',
+                '试听人数',
+                '注册试听收入',
+                '报名人数',
+                '报名收入',
+                '试听率',
+                '试听报名率',
+              ],
+            },
+            xAxis: [
+              {
+                type: 'category',
+                axisTick: {
+                  alignWithLabel: true,
+                },
+                data: this.month,
+              },
+            ],
+            yAxis: [
+              {
+                type: 'value',
+                name: '邀约人数',
+                min: 0,
+                max: 150,
+                position: 'right',
+                axisLine: {
+                  lineStyle: {
+                    color: colors[0],
+                  },
+                },
+                axisLabel: {
+                  formatter: '{value} 人',
+                },
+              },
+              {
+                type: 'value',
+                name: '试听人数',
+                min: 0,
+                max: 150,
+                position: 'left',
+                axisLine: {
+                  lineStyle: {
+                    color: colors[1],
+                  },
+                },
+                axisLabel: {
+                  formatter: '{value} 人',
+                },
+              },
+              {
+                type: 'value',
+                name: '注册试听收入',
+                min: 0,
+                max: 4000,
+                position: 'left',
+                offset: 65,
+                axisLine: {
+                  lineStyle: {
+                    color: colors[2],
+                  },
+                },
+                axisLabel: {
+                  formatter: '{value} 元',
+                },
+              },
+              {
+                type: 'value',
+                name: '报名人数',
+                min: 0,
+                max: 150,
+                position: 'right',
+                offset: 60,
+                axisLine: {
+                  lineStyle: {
+                    color: colors[3],
+                  },
+                },
+                axisLabel: {
+                  formatter: '{value} 人',
+                },
+              },
+              {
+                type: 'value',
+                name: '报名收入',
+                min: 0,
+                max: 250000,
+                position: 'right',
+                offset: 130,
+                axisLine: {
+                  lineStyle: {
+                    color: colors[4],
+                  },
+                },
+                axisLabel: {
+                  formatter: '{value} 元',
+                },
+              },
+              {
+                type: 'value',
+                name: '试听率',
+                min: 0,
+                max: 100,
+                position: 'left',
+                offset: 130,
+                axisLine: {
+                  lineStyle: {
+                    color: colors[5],
+                  },
+                },
+                axisLabel: {
+                  formatter: '{value} %',
+                },
+              },
+              {
+                type: 'value',
+                name: '试听报名率',
+                min: 0,
+                max: 100,
+                position: 'right',
+                offset: 195,
+                axisLine: {
+                  lineStyle: {
+                    color: colors[6],
+                  },
+                },
+                axisLabel: {
+                  formatter: '{value} %',
+                },
+              },
+            ],
+            series: [
+              {
+                name: '邀约人数',
+                type: 'bar',
+                yAxisIndex: 0,
+                data: this.month_flow_num,
+              },
+              {
+                name: '试听人数',
+                type: 'bar',
+                yAxisIndex: 1,
+                data: this.month_audition_num,
+              },
+              {
+                name: '注册试听收入',
+                type: 'bar',
+                yAxisIndex: 2,
+                data: this.month_audition_income,
+              },
+              {
+                name: '报名人数',
+                type: 'bar',
+                yAxisIndex: 3,
+                data: this.month_signup_num,
+              },
+              {
+                name: '报名收入',
+                type: 'bar',
+                yAxisIndex: 4,
+                data: this.month_signup_income,
+              },
+              {
+                name: '试听率',
+                type: 'line',
+                yAxisIndex: 5,
+                data: this.month_audition_rate,
+              },
+              {
+                name: '试听报名率',
+                type: 'line',
+                yAxisIndex: 6,
+                data: this.month_signup_rate,
+              },
+            ],
+          });
+        }
+      });
+    },
+    /**
+     * @function checktotal7days
+     * @description 查看总体本周业绩
+     */
+    checktotal7days() {
+      this.axios({
+        method: 'post',
+        url: 'data/week_cc_grades',
+        data: {
+          name: '',
+        },
+        headers: { 'X-CSRFToken': getCookie('csrftoken') },
+      }).then((response) => {
+        if (response.data.list[0].error === DIC.STATUS_CODE.Success) {
+          for (let i = 0; i &lt; response.data.list.length; i += 1) {
+            this.week_flow_num[i] = response.data.list[i].flow_num;
+            this.week_audition_num[i] = response.data.list[i].audition_num;
+            this.week_audition_income[i] =
+              response.data.list[i].audition_income;
+            this.week_signup_num[i] = response.data.list[i].signup_num;
+            this.week_signup_income[i] = response.data.list[i].signup_income;
+            this.week_audition_rate[i] = response.data.list[i].audition_rate;
+            this.week_signup_rate[i] = response.data.list[i].signup_rate;
+            this.week[i] = response.data.list[i].date;
+          }
+          const colors = [
+            '#5793f3',
+            '#d14a61',
+            '#675bba',
+            '#ffd85c',
+            '#67c23a',
+            '#1b7070',
+            '#ef00b8',
+          ];
+          const totalweekChart = echarts.init(
+            document.getElementById('total_7days'),
+          );
+          totalweekChart.resize();
+          totalweekChart.setOption({
+            color: colors,
+            tooltip: {
+              trigger: 'axis',
+              axisPointer: {
+                type: 'cross',
+              },
+            },
+            grid: {
+              left: '20%',
+              right: '25%',
+            },
+            toolbox: {
+              feature: {
+                dataView: { show: true, readOnly: false },
+                restore: { show: true },
+                saveAsImage: { show: true },
+              },
+            },
+            legend: {
+              data: [
+                '邀约人数',
+                '试听人数',
+                '注册试听收入',
+                '报名人数',
+                '报名收入',
+                '试听率',
+                '试听报名率',
+              ],
+            },
+            xAxis: [
+              {
+                type: 'category',
+                axisTick: {
+                  alignWithLabel: true,
+                },
+                data: this.week,
+              },
+            ],
+            yAxis: [
+              {
+                type: 'value',
+                name: '邀约人数',
+                min: 0,
+                max: 60,
+                position: 'right',
+                axisLine: {
+                  lineStyle: {
+                    color: colors[0],
+                  },
+                },
+                axisLabel: {
+                  formatter: '{value} 人',
+                },
+              },
+              {
+                type: 'value',
+                name: '试听人数',
+                min: 0,
+                max: 60,
+                position: 'left',
+                axisLine: {
+                  lineStyle: {
+                    color: colors[1],
+                  },
+                },
+                axisLabel: {
+                  formatter: '{value} 人',
+                },
+              },
+              {
+                type: 'value',
+                name: '注册试听收入',
+                min: 0,
+                max: 1000,
+                position: 'left',
+                offset: 65,
+                axisLine: {
+                  lineStyle: {
+                    color: colors[2],
+                  },
+                },
+                axisLabel: {
+                  formatter: '{value} 元',
+                },
+              },
+              {
+                type: 'value',
+                name: '报名人数',
+                min: 0,
+                max: 60,
+                position: 'right',
+                offset: 60,
+                axisLine: {
+                  lineStyle: {
+                    color: colors[3],
+                  },
+                },
+                axisLabel: {
+                  formatter: '{value} 人',
+                },
+              },
+              {
+                type: 'value',
+                name: '报名收入',
+                min: 0,
+                max: 100000,
+                position: 'right',
+                offset: 130,
+                axisLine: {
+                  lineStyle: {
+                    color: colors[4],
+                  },
+                },
+                axisLabel: {
+                  formatter: '{value} 元',
+                },
+              },
+              {
+                type: 'value',
+                name: '试听率',
+                min: 0,
+                max: 100,
+                position: 'left',
+                offset: 130,
+                axisLine: {
+                  lineStyle: {
+                    color: colors[5],
+                  },
+                },
+                axisLabel: {
+                  formatter: '{value} %',
+                },
+              },
+              {
+                type: 'value',
+                name: '试听报名率',
+                min: 0,
+                max: 100,
+                position: 'right',
+                offset: 195,
+                axisLine: {
+                  lineStyle: {
+                    color: colors[6],
+                  },
+                },
+                axisLabel: {
+                  formatter: '{value} %',
+                },
+              },
+            ],
+            series: [
+              {
+                name: '邀约人数',
+                type: 'bar',
+                yAxisIndex: 0,
+                data: this.week_flow_num,
+              },
+              {
+                name: '试听人数',
+                type: 'bar',
+                yAxisIndex: 1,
+                data: this.week_audition_num,
+              },
+              {
+                name: '注册试听收入',
+                type: 'bar',
+                yAxisIndex: 2,
+                data: this.week_audition_income,
+              },
+              {
+                name: '报名人数',
+                type: 'bar',
+                yAxisIndex: 3,
+                data: this.week_signup_num,
+              },
+              {
+                name: '报名收入',
+                type: 'bar',
+                yAxisIndex: 4,
+                data: this.week_signup_income,
+              },
+              {
+                name: '试听率',
+                type: 'line',
+                yAxisIndex: 5,
+                data: this.week_audition_rate,
+              },
+              {
+                name: '试听报名率',
+                type: 'line',
+                yAxisIndex: 6,
+                data: this.week_signup_rate,
+              },
+            ],
+          });
+        }
+      });
+    },
+    /**
+     * @function checktotalyear
+     * @description 查看总体本年业绩
+     */
+    checktotalyear() {
+      this.axios({
+        method: 'post',
+        url: 'data/years_cc_grades',
+        data: {
+          name: '',
+        },
+        headers: { 'X-CSRFToken': getCookie('csrftoken') },
+      }).then((response) => {
+        if (response.data.last_list[0].error === DIC.STATUS_CODE.Success) {
+          this.lastyear[0] = response.data.last_list[0].flow_num;
+          this.thisyear[0] = response.data.this_list[0].flow_num;
+          this.lastyear[1] = response.data.last_list[0].audition_num;
+          this.thisyear[1] = response.data.this_list[0].audition_num;
+          this.lastyear[2] = response.data.last_list[0].audition_income;
+          this.thisyear[2] = response.data.this_list[0].audition_income;
+          this.lastyear[3] = response.data.last_list[0].signup_num;
+          this.thisyear[3] = response.data.this_list[0].signup_num;
+          this.lastyear[4] = response.data.last_list[0].signup_income;
+          this.thisyear[4] = response.data.this_list[0].signup_income;
+          this.lastyear[5] = response.data.last_list[0].audition_rate;
+          this.thisyear[5] = response.data.this_list[0].audition_rate;
+          this.lastyear[6] = response.data.last_list[0].signup_rate;
+          this.thisyear[6] = response.data.this_list[0].signup_rate;
+          const totalyearChart = echarts.init(
+            document.getElementById('total_year'),
+          );
+          totalyearChart.resize();
+          totalyearChart.setOption({
+            tooltip: {},
+            legend: {
+              data: ['去年业绩', '今年业绩'],
+            },
+            radar: {
+              name: {
+                textStyle: {
+                  color: '#fff',
+                  backgroundColor: '#999',
+                  borderRadius: 3,
+                  padding: [3, 5],
+                },
+              },
+              indicator: [
+                { name: '邀约人数', max: 600 },
+                { name: '试听人数', max: 600 },
+                { name: '注册试听收入', max: 20000 },
+                { name: '报名人数', max: 500 },
+                { name: '报名收入', max: 1000000 },
+                { name: '试听率(百分比)', max: 100 },
+                { name: '试听报名率(百分比)', max: 100 },
+              ],
+            },
+            series: [
+              {
+                name: '去年业绩 vs 今年业绩',
+                type: 'radar',
+                data: [
+                  {
+                    value: this.lastyear,
+                    name: '去年业绩',
+                  },
+                  {
+                    value: this.thisyear,
+                    name: '今年业绩',
+                  },
+                ],
+              },
+            ],
+          });
+        } else {
+          this.$message.error('用户名不存在!');
+        }
+      });
+    },
+    /**
+     * @function checkpeer7days
+     * @description 查看个人本周业绩
+     */
+    checkpeer7days(a) {
+      const that = a;
+      that
+        .axios({
+          method: 'post',
+          url: 'data/week_cc_grades',
+          data: {
+            name: that.peername,
+          },
+          headers: { 'X-CSRFToken': getCookie('csrftoken') },
+        })
+        .then((response) => {
+          if (response.data.list[0].error === DIC.STATUS_CODE.Success) {
+            for (let i = 0; i &lt; response.data.list.length; i += 1) {
+              that.week_flow_num[i] = response.data.list[i].flow_num;
+              that.week_audition_num[i] = response.data.list[i].audition_num;
+              that.week_audition_income[i] =
+                response.data.list[i].audition_income;
+              that.week_signup_num[i] = response.data.list[i].signup_num;
+              that.week_signup_income[i] = response.data.list[i].signup_income;
+              that.week_audition_rate[i] = response.data.list[i].audition_rate;
+              that.week_signup_rate[i] = response.data.list[i].signup_rate;
+              that.week[i] = response.data.list[i].date;
+            }
+            const colors = [
+              '#5793f3',
+              '#d14a61',
+              '#675bba',
+              '#ffd85c',
+              '#67c23a',
+              '#1b7070',
+              '#ef00b8',
+            ];
+            const peerweekChart = echarts.init(
+              document.getElementById('peer_7days'),
+            );
+            peerweekChart.resize();
+            peerweekChart.setOption({
+              color: colors,
+              tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                  type: 'cross',
+                },
+              },
+              grid: {
+                left: '20%',
+                right: '20%',
+              },
+              toolbox: {
+                feature: {
+                  dataView: { show: true, readOnly: false },
+                  restore: { show: true },
+                  saveAsImage: { show: true },
+                },
+              },
+              legend: {
+                data: [
+                  '邀约人数',
+                  '试听人数',
+                  '注册试听收入',
+                  '报名人数',
+                  '报名收入',
+                  '试听率',
+                  '试听报名率',
+                ],
+              },
+              xAxis: [
+                {
+                  type: 'category',
+                  axisTick: {
+                    alignWithLabel: true,
+                  },
+                  data: this.week,
+                },
+              ],
+              yAxis: [
+                {
+                  type: 'value',
+                  name: '邀约人数',
+                  min: 0,
+                  max: 60,
+                  position: 'right',
+                  axisLine: {
+                    lineStyle: {
+                      color: colors[0],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: '{value} 人',
+                  },
+                },
+                {
+                  type: 'value',
+                  name: '试听人数',
+                  min: 0,
+                  max: 60,
+                  position: 'left',
+                  axisLine: {
+                    lineStyle: {
+                      color: colors[1],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: '{value} 人',
+                  },
+                },
+                {
+                  type: 'value',
+                  name: '注册试听收入',
+                  min: 0,
+                  max: 1000,
+                  position: 'left',
+                  offset: 65,
+                  axisLine: {
+                    lineStyle: {
+                      color: colors[2],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: '{value} 元',
+                  },
+                },
+                {
+                  type: 'value',
+                  name: '报名人数',
+                  min: 0,
+                  max: 60,
+                  position: 'right',
+                  offset: 60,
+                  axisLine: {
+                    lineStyle: {
+                      color: colors[3],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: '{value} 人',
+                  },
+                },
+                {
+                  type: 'value',
+                  name: '报名收入',
+                  min: 0,
+                  max: 100000,
+                  position: 'right',
+                  offset: 130,
+                  axisLine: {
+                    lineStyle: {
+                      color: colors[4],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: '{value} 元',
+                  },
+                },
+                {
+                  type: 'value',
+                  name: '试听率',
+                  min: 0,
+                  max: 100,
+                  position: 'left',
+                  offset: 130,
+                  axisLine: {
+                    lineStyle: {
+                      color: colors[5],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: '{value} %',
+                  },
+                },
+                {
+                  type: 'value',
+                  name: '试听报名率',
+                  min: 0,
+                  max: 100,
+                  position: 'right',
+                  offset: 195,
+                  axisLine: {
+                    lineStyle: {
+                      color: colors[6],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: '{value} %',
+                  },
+                },
+              ],
+              series: [
+                {
+                  name: '邀约人数',
+                  type: 'bar',
+                  yAxisIndex: 0,
+                  data: that.week_flow_num,
+                },
+                {
+                  name: '试听人数',
+                  type: 'bar',
+                  yAxisIndex: 1,
+                  data: that.week_audition_num,
+                },
+                {
+                  name: '注册试听收入',
+                  type: 'bar',
+                  yAxisIndex: 2,
+                  data: that.week_audition_income,
+                },
+                {
+                  name: '报名人数',
+                  type: 'bar',
+                  yAxisIndex: 3,
+                  data: that.week_signup_num,
+                },
+                {
+                  name: '报名收入',
+                  type: 'bar',
+                  yAxisIndex: 4,
+                  data: that.week_signup_income,
+                },
+                {
+                  name: '试听率',
+                  type: 'line',
+                  yAxisIndex: 5,
+                  data: that.week_audition_rate,
+                },
+                {
+                  name: '试听报名率',
+                  type: 'line',
+                  yAxisIndex: 6,
+                  data: that.week_signup_rate,
+                },
+              ],
+            });
+          }
+        });
+    },
+    /**
+     * @function checkpeermonth
+     * @description 查看个人本月业绩
+     */
+    checkpeermonth(a) {
+      const that = a;
+      that
+        .axios({
+          method: 'post',
+          url: 'data/months_cc_grades',
+          data: {
+            name: that.peername,
+          },
+          headers: { 'X-CSRFToken': getCookie('csrftoken') },
+        })
+        .then((response) => {
+          if (response.data.list[0].error === DIC.STATUS_CODE.Success) {
+            for (let i = 0; i &lt; response.data.list.length; i += 1) {
+              that.month_flow_num[i] = response.data.list[i].flow_num;
+              that.month_audition_num[i] = response.data.list[i].audition_num;
+              that.month_audition_income[i] = response.data.list[i].audition_income;
+              that.month_signup_num[i] = response.data.list[i].signup_num;
+              that.month_signup_income[i] = response.data.list[i].signup_income;
+              that.month_audition_rate[i] = response.data.list[i].audition_rate;
+              that.month_signup_rate[i] = response.data.list[i].signup_rate;
+              that.month[i] = i + 1;
+            }
+            const colors = [
+              '#5793f3',
+              '#d14a61',
+              '#675bba',
+              '#ffd85c',
+              '#67c23a',
+              '#1b7070',
+              '#ef00b8',
+            ];
+            const peermonthChart = echarts.init(
+              document.getElementById('peer_month'),
+            );
+            peermonthChart.resize();
+            peermonthChart.setOption({
+              color: colors,
+              tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                  type: 'cross',
+                },
+              },
+              grid: {
+                right: '20%',
+              },
+              toolbox: {
+                feature: {
+                  dataView: { show: true, readOnly: false },
+                  restore: { show: true },
+                  saveAsImage: { show: true },
+                },
+              },
+              legend: {
+                data: [
+                  '邀约人数',
+                  '试听人数',
+                  '注册试听收入',
+                  '报名人数',
+                  '报名收入',
+                  '试听率',
+                  '试听报名率',
+                ],
+              },
+              xAxis: [
+                {
+                  type: 'category',
+                  axisTick: {
+                    alignWithLabel: true,
+                  },
+                  data: that.month,
+                },
+              ],
+              yAxis: [
+                {
+                  type: 'value',
+                  name: '邀约人数',
+                  min: 0,
+                  max: 150,
+                  position: 'right',
+                  axisLine: {
+                    lineStyle: {
+                      color: colors[0],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: '{value} 人',
+                  },
+                },
+                {
+                  type: 'value',
+                  name: '试听人数',
+                  min: 0,
+                  max: 150,
+                  position: 'left',
+                  axisLine: {
+                    lineStyle: {
+                      color: colors[1],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: '{value} 人',
+                  },
+                },
+                {
+                  type: 'value',
+                  name: '注册试听收入',
+                  min: 0,
+                  max: 4000,
+                  position: 'left',
+                  offset: 65,
+                  axisLine: {
+                    lineStyle: {
+                      color: colors[2],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: '{value} 元',
+                  },
+                },
+                {
+                  type: 'value',
+                  name: '报名人数',
+                  min: 0,
+                  max: 150,
+                  position: 'right',
+                  offset: 65,
+                  axisLine: {
+                    lineStyle: {
+                      color: colors[3],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: '{value} 人',
+                  },
+                },
+                {
+                  type: 'value',
+                  name: '报名收入',
+                  min: 0,
+                  max: 250000,
+                  position: 'right',
+                  offset: 130,
+                  axisLine: {
+                    lineStyle: {
+                      color: colors[4],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: '{value} 元',
+                  },
+                },
+                {
+                  type: 'value',
+                  name: '试听率',
+                  min: 0,
+                  max: 100,
+                  position: 'left',
+                  offset: 130,
+                  axisLine: {
+                    lineStyle: {
+                      color: colors[5],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: '{value} %',
+                  },
+                },
+                {
+                  type: 'value',
+                  name: '试听报名率',
+                  min: 0,
+                  max: 100,
+                  position: 'right',
+                  offset: 195,
+                  axisLine: {
+                    lineStyle: {
+                      color: colors[6],
+                    },
+                  },
+                  axisLabel: {
+                    formatter: '{value} %',
+                  },
+                },
+              ],
+              series: [
+                {
+                  name: '邀约人数',
+                  type: 'bar',
+                  yAxisIndex: 0,
+                  data: that.month_flow_num,
+                },
+                {
+                  name: '试听人数',
+                  type: 'bar',
+                  yAxisIndex: 1,
+                  data: that.month_audition_num,
+                },
+                {
+                  name: '注册试听收入',
+                  type: 'bar',
+                  yAxisIndex: 2,
+                  data: that.month_audition_income,
+                },
+                {
+                  name: '报名人数',
+                  type: 'bar',
+                  yAxisIndex: 3,
+                  data: that.month_signup_num,
+                },
+                {
+                  name: '报名收入',
+                  type: 'bar',
+                  yAxisIndex: 4,
+                  data: that.month_signup_income,
+                },
+                {
+                  name: '试听率',
+                  type: 'line',
+                  yAxisIndex: 5,
+                  data: that.month_audition_rate,
+                },
+                {
+                  name: '试听报名率',
+                  type: 'line',
+                  yAxisIndex: 6,
+                  data: that.month_signup_rate,
+                },
+              ],
+            });
+          }
+        });
+    },
+    /**
+     * @function checkpeeryear
+     * @description 查看个人本年业绩
+     */
+    checkpeeryear(a) {
+      const that = a;
+      that
+        .axios({
+          method: 'post',
+          url: 'data/years_cc_grades',
+          data: {
+            name: that.peername,
+          },
+          headers: { 'X-CSRFToken': getCookie('csrftoken') },
+        })
+        .then((response) => {
+          if (response.data.last_list[0].error === DIC.STATUS_CODE.Success) {
+            that.lastyear[0] = response.data.last_list[0].flow_num;
+            that.thisyear[0] = response.data.this_list[0].flow_num;
+            that.lastyear[1] = response.data.last_list[0].audition_num;
+            that.thisyear[1] = response.data.this_list[0].audition_num;
+            that.lastyear[2] = response.data.last_list[0].audition_income;
+            that.thisyear[2] = response.data.this_list[0].audition_income;
+            that.lastyear[3] = response.data.last_list[0].signup_num;
+            that.thisyear[3] = response.data.this_list[0].signup_num;
+            that.lastyear[4] = response.data.last_list[0].signup_income;
+            that.thisyear[4] = response.data.this_list[0].signup_income;
+            that.lastyear[5] = response.data.last_list[0].audition_rate;
+            that.thisyear[5] = response.data.this_list[0].audition_rate;
+            that.lastyear[6] = response.data.last_list[0].signup_rate;
+            that.thisyear[6] = response.data.this_list[0].signup_rate;
+            const peeryearChart = echarts.init(
+              document.getElementById('peer_year'),
+            );
+            peeryearChart.resize();
+            peeryearChart.setOption({
+              tooltip: {},
+              legend: {
+                data: ['去年业绩', '今年业绩'],
+              },
+              radar: {
+                name: {
+                  textStyle: {
+                    color: '#fff',
+                    backgroundColor: '#999',
+                    borderRadius: 3,
+                    padding: [3, 5],
+                  },
+                },
+                indicator: [
+                  { name: '邀约人数', max: 600 },
+                  { name: '试听人数', max: 600 },
+                  { name: '注册试听收入', max: 20000 },
+                  { name: '报名人数', max: 500 },
+                  { name: '报名收入', max: 1000000 },
+                  { name: '试听率(百分比)', max: 100 },
+                  { name: '试听报名率(百分比)', max: 100 },
+                ],
+              },
+              series: [
+                {
+                  name: '去年业绩 vs 今年业绩',
+                  type: 'radar',
+                  data: [
+                    {
+                      value: that.lastyear,
+                      name: '去年业绩',
+                    },
+                    {
+                      value: that.thisyear,
+                      name: '今年业绩',
+                    },
+                  ],
+                },
+              ],
+            });
+          } else {
+            that.$message.error('用户名不存在!');
+          }
+        });
+    },
+  },
+  mounted() {
+    this.checkTotalToday();
+    this.checktotal7days();
+    this.checktotalmonth();
+    this.checktotalyear();
+  },
+};
+&lt;/script>
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Sun Sep 02 2018 00:08:19 GMT+0800 (GMT+08:00) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

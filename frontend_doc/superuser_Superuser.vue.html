@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>superuser/Superuser.vue - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Modules</li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="components_EduAdmin_searchItem.module_vue.html">vue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="components_EduAdmin_searchItem.module_vue.html#~submitSearch">submitSearch</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-aboutUs.html">aboutUs</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-aboutUs.html#.data">data</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-AddCc.html">AddCc</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddCc.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddCc.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-addClass.html">addClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-addClass.html#~addClass">addClass</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-AddEduAdmin.html">AddEduAdmin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddEduAdmin.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddEduAdmin.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-AddSeller.html">AddSeller</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddSeller.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddSeller.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-adjustCourse.html">adjustCourse</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adjustCourse.html#~submitAdd">submitAdd</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-adjustSection.html">adjustSection</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adjustSection.html#~submitAdd">submitAdd</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-adult.html">adult</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adult.html#~quit">quit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adult.html#~relation">relation</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adult.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adult.html#~show">show</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adult.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-assigncc.html">assigncc</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-assigncc.html#~assign">assign</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-assigncc.html#~cc">cc</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-assigncc.html#~handleClose">handleClose</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-assigncc.html#~refresh">refresh</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-cancelClass.html">cancelClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-cancelClass.html#~cancel">cancel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-cancelClass.html#~updateData">updateData</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-ccsales.html">ccsales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkpeer7days">checkpeer7days</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkpeerinfo">checkpeerinfo</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkpeermonth">checkpeermonth</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkpeerToday">checkpeerToday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkpeeryear">checkpeeryear</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checktotal7days">checktotal7days</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checktotalmonth">checktotalmonth</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkTotalToday">checkTotalToday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checktotalyear">checktotalyear</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-changePass.html">changePass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-changePass.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-changePass.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-changepss.html">changepss</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-changepss.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-changepss.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-checkRefund.html">checkRefund</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-checkRefund.html#~organize">organize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-checkRefund.html#~passRefund">passRefund</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-checkRefund.html#~updateRefund">updateRefund</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-childInformation.html">childInformation</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-childInformation.html#.data">data</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-courseItem.html">courseItem</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-courses.html">courses</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-courses.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-courses.html#~changeNotShow">changeNotShow</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-courses.html#~changeshow">changeshow</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-customerlist.html">customerlist</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-customerlist.html#~addRecord">addRecord</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-customerlist.html#~refresh">refresh</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-customerlist.html#~submit">submit</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-CustomerList_.html">CustomerList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~changeinfo">changeinfo</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~check">check</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~del">del</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~delcustomer">delcustomer</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~edit">edit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~refresh">refresh</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~submit">submit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~submit1">submit1</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-EduAdmin.html">EduAdmin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-EduAdmin.html#~selectHandle">selectHandle</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-formula.html">formula</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-fund.html">fund</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-fund.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-fund.html#~cancel">cancel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-fund.html#~fund">fund</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-headbar.html">headbar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-headbar.html#~handleCommand">handleCommand</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-heading.html">heading</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-heading.html#~show">show</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-human.html">human</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-human.html#.data">data</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-land.html">land</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-land.html#~logpass">logpass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-land.html#~logphone">logphone</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-land.html#~register">register</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-land.html#~sendcodes">sendcodes</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-log.html">log</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~filterTag">filterTag</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~getlog">getlog</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~sendMsg">sendMsg</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~submitForm">submitForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~submitForm2">submitForm2</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-mainpage.html">mainpage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-mainpage.html#~getdata">getdata</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-memlist.html">memlist</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-memlist.html#~del">del</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-memlist.html#~edit">edit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-memlist.html#~refresh">refresh</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-memlist.html#~submit">submit</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-page.html">page</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-page.html#.data">data</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-parent.html">parent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-parent.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-parent.html#~board">board</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-parent.html#~quit">quit</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-password.html">password</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-password.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-password.html#~pass">pass</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-pay.html">pay</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-pay.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-pay.html#~pay">pay</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-payFee.html">payFee</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-payFee.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-payFee.html#~pay">pay</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-qrcode.html">qrcode</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-qrcode.html#~getQRcode">getQRcode</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-refund.html">refund</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refund.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refund.html#~cancel">cancel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refund.html#~fund">fund</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-refundApplication.html">refundApplication</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refundApplication.html#~refresh">refresh</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refundApplication.html#~willRefund">willRefund</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-refundHistory.html">refundHistory</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refundHistory.html#~filterTag">filterTag</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refundHistory.html#~refresh">refresh</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-register.html">register</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-register.html#~getParams">getParams</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-register.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-register.html#~sendMsg">sendMsg</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-register.html#~submitForm">submitForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-register.html#~submitPay">submitPay</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-sales.html">sales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sales.html#~getSales">getSales</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-salesrecords.html">salesrecords</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-salesrecords.html#~getSales">getSales</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-searchClass.html">searchClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~addingStudent">addingStudent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~addStudent">addStudent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~changeCourse">changeCourse</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~changeDay">changeDay</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~changeSection">changeSection</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~changeSuccess">changeSuccess</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~resetData">resetData</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~setHeaderColor">setHeaderColor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~setOutHeaderColor">setOutHeaderColor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~showDialogToChangeCourse">showDialogToChangeCourse</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~showDialogToChangeSection">showDialogToChangeSection</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~updateData">updateData</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-Seller.html">Seller</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Seller.html#~onPassword">onPassword</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Seller.html#~onQRcode">onQRcode</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Seller.html#~onSales">onSales</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-sellerlogin.html">sellerlogin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerlogin.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerlogin.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-sellerpage.html">sellerpage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerpage.html#~changepass">changepass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerpage.html#~getQRcode">getQRcode</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerpage.html#~logout">logout</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerpage.html#~showcenter">showcenter</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerpage.html#~showqrcode">showqrcode</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-sellersales.html">sellersales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkpeer7days">checkpeer7days</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkpeerinfo">checkpeerinfo</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkpeermonth">checkpeermonth</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkpeerToday">checkpeerToday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkpeeryear">checkpeeryear</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checktotal7days">checktotal7days</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checktotalmonth">checktotalmonth</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkTotalToday">checkTotalToday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checktotalyear">checktotalyear</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-signup.html">signup</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-signup.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-signup.html#~signUp">signUp</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-Superuser.html">Superuser</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onAddCc">onAddCc</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onAddEduAdmin">onAddEduAdmin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onAddSeller">onAddSeller</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onAssign">onAssign</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onCcList">onCcList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onCcSales">onCcSales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onChangePass">onChangePass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onCustomerList">onCustomerList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onEduAdminList">onEduAdminList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onLog">onLog</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onMain">onMain</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onSellerList">onSellerList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onSellerSales">onSellerSales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onTeacherSales">onTeacherSales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onThird">onThird</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~toggleSelection">toggleSelection</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-syllabus.html">syllabus</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-syllabus.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-syllabus.html#~changeNotShow">changeNotShow</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-syllabus.html#~changeShow">changeShow</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-teachersales.html">teachersales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-teachersales.html#~filterTag">filterTag</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-teachersales.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-teachersales.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><a href="global.html">Globals</a></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onList">onList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onPassword">onPassword</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onRecord">onRecord</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onRefund">onRefund</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onSales">onSales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onSignUp">onSignUp</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#toggleSelection">toggleSelection</a></span></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">superuser/Superuser.vue</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>&lt;template>
+  &lt;el-container>
+    &lt;el-header>&lt;headbar>&lt;/headbar>&lt;/el-header>
+    &lt;el-container>
+    &lt;el-aside width="200px">
+        &lt;el-menu
+            class="el-menu-vertical-demo"
+            background-color="#48576a"
+            text-color="#bfcbd9"
+            active-text-color="#66b1ff">
+          &lt;el-menu-item index="1" v-on:click="onMain()">
+          &lt;i class="el-icon-menu">&lt;/i>
+          &lt;span slot="title" class=main>首页&lt;/span>
+          &lt;/el-menu-item>
+        &lt;el-submenu index="2">
+          &lt;template slot="title">
+          &lt;i class="el-icon-menu">&lt;/i>
+          &lt;span>人员管理&lt;/span>
+          &lt;/template>
+          &lt;el-menu-item-group>
+          &lt;el-menu-item index="2-1" @click="onEduAdminList()">教务老师列表&lt;/el-menu-item>
+          &lt;el-menu-item index="2-2" @click="onCcList()">课程顾问列表&lt;/el-menu-item>
+          &lt;el-menu-item index="2-3" @click="onSellerList()">地推人员列表&lt;/el-menu-item>
+          &lt;el-menu-item index="2-4" @click="onCustomerList()">客户列表&lt;/el-menu-item>
+          &lt;el-menu-item index="2-5" @click="onAssign()">分配课程顾问&lt;/el-menu-item>
+          &lt;/el-menu-item-group>
+        &lt;/el-submenu>
+        &lt;el-submenu index="3">
+          &lt;template slot="title">
+          &lt;i class="el-icon-circle-plus-outline">&lt;/i>
+          &lt;span>添加数据&lt;/span>
+          &lt;/template>
+          &lt;el-menu-item-group>
+          &lt;el-menu-item index="3-1" @click="onThird()">导入第三方数据&lt;/el-menu-item>
+          &lt;el-menu-item index="3-2" @click="onAddCc()">添加课程顾问&lt;/el-menu-item>
+          &lt;el-menu-item index="3-3" @click="onAddSeller()">添加地推人员&lt;/el-menu-item>
+          &lt;el-menu-item index="3-4" @click="onAddEduAdmin()">添加教务老师&lt;/el-menu-item>
+          &lt;/el-menu-item-group>
+        &lt;/el-submenu>
+        &lt;el-menu-item index="4" v-on:click="onLog()">
+          &lt;i class="el-icon-document">&lt;/i>
+          &lt;span slot="title">查看日志&lt;/span>
+        &lt;/el-menu-item>
+        &lt;el-submenu index="5">
+          &lt;template slot="title">
+          &lt;i class="el-icon-news">&lt;/i>
+          &lt;span>查看业绩&lt;/span>
+          &lt;/template>
+          &lt;el-menu-item-group>
+          &lt;el-menu-item index="5-1" @click="onSellerSales()">地推业绩&lt;/el-menu-item>
+          &lt;el-menu-item index="5-2" @click="onCcSales()">课程顾问业绩&lt;/el-menu-item>
+          &lt;el-menu-item index="5-3" @click="onTeacherSales()">试听课老师业绩&lt;/el-menu-item>
+          &lt;/el-menu-item-group>
+        &lt;/el-submenu>
+        &lt;el-submenu index="6">
+          &lt;template slot="title">
+          &lt;i class="el-icon-setting">&lt;/i>
+          &lt;span>设置&lt;/span>
+          &lt;/template>
+          &lt;el-menu-item-group>
+          &lt;el-menu-item index="6-1" @click="onChangePass()">修改密码&lt;/el-menu-item>
+          &lt;/el-menu-item-group>
+        &lt;/el-submenu>
+        &lt;/el-menu>
+    &lt;/el-aside>
+      &lt;el-main>
+        &lt;transition name="el-zoom-in-center">
+        &lt;mainpage v-if="showindex === 1" :initial="initial">&lt;/mainpage>
+        &lt;changepass  v-if="showindex === 2" :name="name" :initial="initial">&lt;/changepass>
+        &lt;memList :usertype="user_type" v-if="showindex === 3" :initial="initial">&lt;/memList>
+        &lt;memList :usertype="user_type" v-if="showindex === 4" :initial="initial">&lt;/memList>
+        &lt;memList :usertype="user_type" v-if="showindex === 5" :initial="initial">&lt;/memList>
+        &lt;CustomerList v-if="showindex === 6" :initial="initial">&lt;/CustomerList>
+        &lt;AddThird :initUrl="url.importFileUrl" v-if="showindex === 7" :initial="initial">
+        &lt;/AddThird>
+        &lt;AddCc v-if="showindex === 8" :initial="initial">&lt;/AddCc>
+        &lt;AddSeller v-if="showindex === 9" :initial="initial">&lt;/AddSeller>
+        &lt;AddEduAdmin v-if="showindex === 10" :initial="initial">&lt;/AddEduAdmin>
+        &lt;log  v-if="showindex === 11" :initial="initial">&lt;/log>
+        &lt;ccsales  v-if="showindex === 12" :initial="initial">&lt;/ccsales>
+        &lt;sellersales  v-if="showindex === 13" :initial="initial">&lt;/sellersales>
+        &lt;teachersales  v-if="showindex === 14" :initial="initial">&lt;/teachersales>
+        &lt;assigncc v-if="showindex=== 15" :initial="initial">&lt;/assigncc>
+        &lt;/transition>
+      &lt;/el-main>
+    &lt;/el-container>
+  &lt;/el-container>
+&lt;/template>
+&lt;style scoped>
+.el-card is-hover-shadow {
+  margin: 20px;
+}
+.el-menu-vertical-demo {
+  background-color: #909399;
+}
+.el-submenu__title {
+  background-color: #48576a;
+}
+.el-header, .el-footer {
+  background-color: #B3C0D1;
+  color: #333;
+  text-align: center;
+}
+.el-aside {
+  background-color: #48576a;
+  color: #333;
+  text-align: left;
+  line-height: 200px;
+  min-height: 960px;
+}
+.el-main {
+  background-color: #E9EEF3;
+  color: #333;
+  text-align: center;
+}
+body > .el-container {
+  margin-bottom: 40px;
+}
+.el-submenu__title {
+  color: #715b5b;
+}
+.el-menu-item {
+    color: #715b5b;
+}
+.el-menu-item is-active{
+  color: #daa103;
+}
+.el-menu {
+  border-right: 0;
+}
+&lt;/style>
+&lt;script>
+/**
+ * 超级管理员模块
+ * @module Superuser
+ */
+import changepass from '@/components/cc/changepass';
+import DIC from '@/dictionary.json';
+import headbar from '@/components/cc/headbar';
+import log from './log';
+import assigncc from './assigncc';
+import memList from './memList';
+import AddThird from './AddThird';
+import AddCc from './AddCc';
+import AddSeller from './AddSeller';
+import AddEduAdmin from './AddEduAdmin';
+import ccsales from './ccsales';
+import sellersales from './sellersales';
+import teachersales from './teachersales';
+import CustomerList from './CustomerList';
+import mainpage from './mainpage';
+
+export default {
+  components: {
+    changepass,
+    headbar,
+    log,
+    assigncc,
+    memList,
+    AddThird,
+    AddCc,
+    AddSeller,
+    AddEduAdmin,
+    ccsales,
+    sellersales,
+    CustomerList,
+    mainpage,
+    teachersales,
+  },
+  data() {
+    return {
+      /**
+     * @prop {String} initial 存储当前页面序号
+     * @prop {String} name 当前用户姓名
+     * @prop {String} user_type 当前用户类型
+     * @prop {String} url 导入文件的路径
+     */
+      initial: '0',
+      showindex: 1,
+      name: this.$route.params.user,
+      user_type: 10,
+      url: {
+        importFileUrl: 'api/sup_import_customer',
+      },
+    };
+  },
+  methods: {
+    /**
+     * @function onMain
+     * @description 展示首页
+     */
+    onMain() {
+      this.showindex = 1;
+      this.initial = '1';
+    },
+    /**
+     * @function onEduAdminList
+     * @description 展示教务老师列表模块
+     */
+    onEduAdminList() {
+      this.showindex = 3;
+      this.user_type = DIC.USER_TYPE.eduadmin;
+      this.initial = '3';
+    },
+    /**
+     * @function onSellerList
+     * @description 展示地推人员列表模块
+     */
+    onSellerList() {
+      this.showindex = 5;
+      this.user_type = DIC.USER_TYPE.seller;
+      this.initial = '5';
+    },
+    /**
+     * @function onCustomerList
+     * @description 展示客户列表模块
+     */
+    onCustomerList() {
+      this.showindex = 6;
+      this.initial = '6';
+    },
+    /**
+     * @function onAssign
+     * @description 展示分配课程顾问模块
+     */
+    onAssign() {
+      this.showindex = 15;
+      this.initial = '15';
+    },
+    /**
+     * @function onThird
+     * @description 展示从第三方导入数据模块
+     */
+    onThird() {
+      this.showindex = 7;
+      this.initial = '7';
+    },
+    /**
+     * @function onAddCc
+     * @description 展示添加课程顾问模块
+     */
+    onAddCc() {
+      this.showindex = 8;
+      this.initial = '8';
+    },
+    /**
+     * @function onAddSeller
+     * @description 展示添加地推人员模块
+     */
+    onAddSeller() {
+      this.showindex = 9;
+      this.initial = '9';
+    },
+    /**
+     * @function onAddEduAdmin
+     * @description 展示添加课程顾问模块
+     */
+    onAddEduAdmin() {
+      this.showindex = 10;
+      this.initial = '10';
+    },
+    /**
+     * @function onSellerSales
+     * @description 展示地推人员销售业绩模块
+     */
+    onSellerSales() {
+      this.showindex = 13;
+      this.initial = '13';
+    },
+    /**
+     * @function onCcSales
+     * @description 展示课程顾问业绩模块
+     */
+    onCcSales() {
+      this.showindex = 12;
+      this.initial = '12';
+    },
+    /**
+     * @function onTeacherSales
+     * @description 展示试听课老师业绩
+     */
+    onTeacherSales() {
+      this.showindex = 14;
+      this.initial = '14';
+    },
+    /**
+     * @function onCcList
+     * @description 展示课程顾问列表模块
+     */
+    onCcList() {
+      this.showindex = 4;
+      this.initial = '4';
+      this.user_type = DIC.USER_TYPE.consultant;
+    },
+    /**
+     * @function onLog
+     * @description 展示日志模块
+     */
+    onLog() {
+      this.showindex = 11;
+      this.initial = '11';
+    },
+    /**
+     * @function onChangePass
+     * @description 展示修改密码模块
+     */
+    onChangePass() {
+      this.showindex = 2;
+      this.initial = '2';
+    },
+    /**
+     * @function toggleSelection
+     * @description 同时选中表格的列
+     */
+    toggleSelection(rows) {
+      if (rows) {
+        rows.forEach((row) => {
+          this.$refs.multipleTable.toggleRowSelection(row);
+        });
+      } else {
+        this.$refs.multipleTable.clearSelection();
+      }
+    },
+    handleSelectionChange(val) {
+      this.multipleSelection = val;
+    },
+  },
+};
+&lt;/script>
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Sun Sep 02 2018 00:08:19 GMT+0800 (GMT+08:00) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

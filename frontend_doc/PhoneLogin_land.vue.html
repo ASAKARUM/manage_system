@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PhoneLogin/land.vue - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Modules</li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="components_EduAdmin_searchItem.module_vue.html">vue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="components_EduAdmin_searchItem.module_vue.html#~submitSearch">submitSearch</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-aboutUs.html">aboutUs</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-aboutUs.html#.data">data</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-AddCc.html">AddCc</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddCc.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddCc.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-addClass.html">addClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-addClass.html#~addClass">addClass</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-AddEduAdmin.html">AddEduAdmin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddEduAdmin.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddEduAdmin.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-AddSeller.html">AddSeller</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddSeller.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-AddSeller.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-adjustCourse.html">adjustCourse</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adjustCourse.html#~submitAdd">submitAdd</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-adjustSection.html">adjustSection</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adjustSection.html#~submitAdd">submitAdd</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-adult.html">adult</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adult.html#~quit">quit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adult.html#~relation">relation</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adult.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adult.html#~show">show</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-adult.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-assigncc.html">assigncc</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-assigncc.html#~assign">assign</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-assigncc.html#~cc">cc</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-assigncc.html#~handleClose">handleClose</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-assigncc.html#~refresh">refresh</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-cancelClass.html">cancelClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-cancelClass.html#~cancel">cancel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-cancelClass.html#~updateData">updateData</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-ccsales.html">ccsales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkpeer7days">checkpeer7days</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkpeerinfo">checkpeerinfo</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkpeermonth">checkpeermonth</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkpeerToday">checkpeerToday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkpeeryear">checkpeeryear</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checktotal7days">checktotal7days</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checktotalmonth">checktotalmonth</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checkTotalToday">checkTotalToday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-ccsales.html#~checktotalyear">checktotalyear</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-changePass.html">changePass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-changePass.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-changePass.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-changepss.html">changepss</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-changepss.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-changepss.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-checkRefund.html">checkRefund</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-checkRefund.html#~organize">organize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-checkRefund.html#~passRefund">passRefund</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-checkRefund.html#~updateRefund">updateRefund</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-childInformation.html">childInformation</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-childInformation.html#.data">data</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-courseItem.html">courseItem</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-courses.html">courses</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-courses.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-courses.html#~changeNotShow">changeNotShow</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-courses.html#~changeshow">changeshow</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-customerlist.html">customerlist</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-customerlist.html#~addRecord">addRecord</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-customerlist.html#~refresh">refresh</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-customerlist.html#~submit">submit</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-CustomerList_.html">CustomerList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~changeinfo">changeinfo</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~check">check</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~del">del</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~delcustomer">delcustomer</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~edit">edit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~refresh">refresh</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~submit">submit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-CustomerList_.html#~submit1">submit1</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-EduAdmin.html">EduAdmin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-EduAdmin.html#~selectHandle">selectHandle</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-formula.html">formula</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-fund.html">fund</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-fund.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-fund.html#~cancel">cancel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-fund.html#~fund">fund</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-headbar.html">headbar</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-headbar.html#~handleCommand">handleCommand</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-heading.html">heading</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-heading.html#~show">show</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-human.html">human</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-human.html#.data">data</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-land.html">land</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-land.html#~logpass">logpass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-land.html#~logphone">logphone</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-land.html#~register">register</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-land.html#~sendcodes">sendcodes</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-log.html">log</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~filterTag">filterTag</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~getlog">getlog</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~sendMsg">sendMsg</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~submitForm">submitForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-log.html#~submitForm2">submitForm2</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-mainpage.html">mainpage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-mainpage.html#~getdata">getdata</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-memlist.html">memlist</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-memlist.html#~del">del</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-memlist.html#~edit">edit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-memlist.html#~refresh">refresh</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-memlist.html#~submit">submit</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-page.html">page</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-page.html#.data">data</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-parent.html">parent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-parent.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-parent.html#~board">board</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-parent.html#~quit">quit</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-password.html">password</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-password.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-password.html#~pass">pass</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-pay.html">pay</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-pay.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-pay.html#~pay">pay</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-payFee.html">payFee</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-payFee.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-payFee.html#~pay">pay</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-qrcode.html">qrcode</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-qrcode.html#~getQRcode">getQRcode</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-refund.html">refund</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refund.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refund.html#~cancel">cancel</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refund.html#~fund">fund</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-refundApplication.html">refundApplication</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refundApplication.html#~refresh">refresh</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refundApplication.html#~willRefund">willRefund</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-refundHistory.html">refundHistory</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refundHistory.html#~filterTag">filterTag</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-refundHistory.html#~refresh">refresh</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-register.html">register</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-register.html#~getParams">getParams</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-register.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-register.html#~sendMsg">sendMsg</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-register.html#~submitForm">submitForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-register.html#~submitPay">submitPay</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-sales.html">sales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sales.html#~getSales">getSales</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-salesrecords.html">salesrecords</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-salesrecords.html#~getSales">getSales</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-searchClass.html">searchClass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~addingStudent">addingStudent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~addStudent">addStudent</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~changeCourse">changeCourse</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~changeDay">changeDay</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~changeSection">changeSection</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~changeSuccess">changeSuccess</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~resetData">resetData</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~setHeaderColor">setHeaderColor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~setOutHeaderColor">setOutHeaderColor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~showDialogToChangeCourse">showDialogToChangeCourse</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~showDialogToChangeSection">showDialogToChangeSection</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-searchClass.html#~updateData">updateData</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-Seller.html">Seller</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Seller.html#~onPassword">onPassword</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Seller.html#~onQRcode">onQRcode</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Seller.html#~onSales">onSales</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-sellerlogin.html">sellerlogin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerlogin.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerlogin.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-sellerpage.html">sellerpage</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerpage.html#~changepass">changepass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerpage.html#~getQRcode">getQRcode</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerpage.html#~logout">logout</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerpage.html#~showcenter">showcenter</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellerpage.html#~showqrcode">showqrcode</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-sellersales.html">sellersales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkpeer7days">checkpeer7days</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkpeerinfo">checkpeerinfo</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkpeermonth">checkpeermonth</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkpeerToday">checkpeerToday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkpeeryear">checkpeeryear</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checktotal7days">checktotal7days</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checktotalmonth">checktotalmonth</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checkTotalToday">checkTotalToday</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-sellersales.html#~checktotalyear">checktotalyear</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-signup.html">signup</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-signup.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-signup.html#~signUp">signUp</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-Superuser.html">Superuser</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onAddCc">onAddCc</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onAddEduAdmin">onAddEduAdmin</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onAddSeller">onAddSeller</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onAssign">onAssign</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onCcList">onCcList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onCcSales">onCcSales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onChangePass">onChangePass</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onCustomerList">onCustomerList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onEduAdminList">onEduAdminList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onLog">onLog</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onMain">onMain</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onSellerList">onSellerList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onSellerSales">onSellerSales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onTeacherSales">onTeacherSales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~onThird">onThird</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-Superuser.html#~toggleSelection">toggleSelection</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-syllabus.html">syllabus</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-syllabus.html#.data">data</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-syllabus.html#~changeNotShow">changeNotShow</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-syllabus.html#~changeShow">changeShow</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-teachersales.html">teachersales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-teachersales.html#~filterTag">filterTag</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-teachersales.html#~resetForm">resetForm</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-teachersales.html#~submitForm">submitForm</a></span></li><li class="nav-heading"><a href="global.html">Globals</a></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onList">onList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onPassword">onPassword</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onRecord">onRecord</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onRefund">onRefund</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onSales">onSales</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#onSignUp">onSignUp</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#toggleSelection">toggleSelection</a></span></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">PhoneLogin/land.vue</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>&lt;template>
+  &lt;div>
+    &lt;img :src="url" class="head">
+    &lt;mt-swipe :auto="4000" class="swip">
+      &lt;mt-swipe-item v-for="img in imgaes" :key="img.id">
+        &lt;img :src="img.url" class="swip">
+      &lt;/mt-swipe-item>
+    &lt;/mt-swipe>
+    &lt;mt-navbar v-model="active">
+      &lt;mt-tab-item id="1">用户注册&lt;/mt-tab-item>
+      &lt;mt-tab-item id="2">手机验证码登录&lt;/mt-tab-item>
+      &lt;mt-tab-item id="3">手机号密码登录&lt;/mt-tab-item>
+    &lt;/mt-navbar>
+    &lt;mt-tab-container v-model="active">
+      &lt;mt-tab-container-item id="1">
+        &lt;mt-field label="孩子姓名" placeholder="请输入孩子姓名"
+        v-model="ruleForm2.name">&lt;/mt-field>
+        &lt;mt-field label="手机号" placeholder="请输入手机号"
+        v-model="ruleForm2.tel">&lt;/mt-field>
+        &lt;mt-field label="验证码" placeholder="请输入验证码"
+        v-model="ruleForm2.confirm">
+          &lt;mt-button type="default" v-show="showx"
+            :disabled="!showx" @click.native="sendcodes('1')">
+            发送验证码&lt;/mt-button>
+          &lt;mt-button v-show="!showx" :disabled="!showx">
+            重新发送 ({{ count }}s)
+          &lt;/mt-button>
+        &lt;/mt-field>
+        &lt;mt-button type="primary" size="large" plain
+          @click.native="register()">注册&lt;/mt-button>
+      &lt;/mt-tab-container-item>
+      &lt;mt-tab-container-item id="2">
+        &lt;mt-field label="手机号" placeholder="请输入手机号"
+        v-model="ruleForm.tel">&lt;/mt-field>
+        &lt;mt-field label="验证码" placeholder="请输入验证码"
+        v-model="ruleForm.con">
+          &lt;mt-button type="default" v-show="show"
+            :disabled="!show" @click.native="sendcodes('2')">
+            发送验证码&lt;/mt-button>
+          &lt;mt-button v-show="!show" :disabled="!show">
+            重新发送 ({{ count }}s)
+          &lt;/mt-button>
+        &lt;/mt-field>
+        &lt;mt-button type="primary" size="large" plain
+        @click.native="logphone()">登录&lt;/mt-button>
+      &lt;/mt-tab-container-item>
+      &lt;mt-tab-container-item id="3">
+        &lt;mt-field label="手机号" placeholder="请输入手机号"
+        v-model="ruleForm3.tel">&lt;/mt-field>
+        &lt;mt-field label="密码" placeholder="请输入密码" type="password"
+        v-model="ruleForm3.pass">&lt;/mt-field>
+        &lt;mt-button type="primary" size="large" plain
+        @click.native="logpass()">登录&lt;/mt-button>
+      &lt;/mt-tab-container-item>
+    &lt;/mt-tab-container>
+    &lt;div class="foot">
+      &lt;div>
+        &lt;p>
+          &lt;br>
+          Copyright © 2001-2017
+          &lt;br>&lt;br>
+          全国统一咨询热线：4006062001  地址：西安市含光门外环城南路含光商务大厦6层
+        &lt;br>
+        &lt;/p>
+        &lt;br>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/template>
+&lt;script>
+/**
+ * 手机端落地页界面
+ * @module land
+ */
+import { getCookie } from '@/utils/utils';
+import DIC from '@/dictionary.json';
+
+export default {
+  name: 'HelloWorld',
+  data() {
+    /**
+     * @prop {String} url 存放图片地址
+     * @prop {String} active 存放页面展示的ID
+     * @prop {Boolean} show 判断展示的页面功能
+     * @prop {Boolean} showx 判断展示的页面类型
+     * @prop {String} count 存放获取验证码按钮的时间
+     * @prop {Object} time 存放点击获取验证码按钮的剩余时间状态
+     * @prop {Object} ruleForm2 存放用户注册时的手机号、孩子姓名和验证码
+     * @prop {Object} ruleForm 存放用户通过手机号和验证码方式登录的手机号和验证码
+     * @prop {Object} ruleForm3 存放用户通过手机号密码方式登录的手机号和密码
+     * @prop {Array} images 存放图片信息 
+     */
+    return {
+      url: '/static/img/total.png',
+      active: '1',
+      show: true,
+      showx: true,
+      count: '',
+      time: null,
+      ruleForm2: {
+        tel: '',
+        name: '',
+        confirm: '',
+      },
+      ruleForm: {
+        con: '',
+        tel: '',
+      },
+      ruleForm3: {
+        tel: '',
+        pass: '',
+      },
+      imgaes: [
+        {
+          url: '/static/img/card1.jpg',
+          id: 1,
+        },
+        {
+          url: '/static/img/picture.png',
+          id: 2,
+        },
+        {
+          url: '/static/img/card3.png',
+          id: 3,
+        },
+      ],
+    };
+  },
+  methods: {
+    /**
+     * @function sendcodes
+     * @description 向后端发送获取验证码请求
+     */
+    sendcodes(type) {
+      if (!this.time) {
+        this.count = 60;
+        if (type === '1') {
+          this.showx = false;
+        } else {
+          this.show = false;
+        }
+        this.axios({
+          method: 'post',
+          url: 'api/sendmsg',
+          data: {
+            tel: this.ruleForm2.tel,
+          },
+          headers: { 'X-CSRFToken': getCookie('csrftoken') },
+        }).then((response) => {
+          if (response.data.msg === DIC.STATUS_CODE.Success) {
+            this.$message({
+              type: 'info',
+              message: '发送成功！',
+            });
+          } else {
+            this.$message({
+              type: 'info',
+              message: '发送失败！',
+            });
+          }
+        });
+        this.time = setInterval(() => {
+          if (this.count > 0 &amp;&amp; this.count &lt;= 60) {
+            this.count -= 1;
+          } else {
+            if (type === '1') {
+              this.showx = true;
+            } else {
+              this.show = true;
+            }
+            clearInterval(this.time);
+            this.time = null;
+          }
+        }, 1000);
+      }
+    },
+    /**
+     * @function register
+     * @description 验证用户注册是否成功
+     */
+    register() {
+      if (this.ruleForm2.tel === '' || this.ruleForm2.name === ''
+        || this.ruleForm2.confirm === '') {
+        this.$toast({
+          message: '输入不能为空',
+          iconClass: 'mint-toast-icon mintui mintui-field-error',
+        });
+        return;
+      }
+      this.axios({
+        method: 'post',
+        url: 'customer/register',
+        data: {
+          username: this.ruleForm2.tel,
+          child_name: this.ruleForm2.name,
+          code: this.ruleForm2.confirm,
+        },
+        headers: { 'X-CSRFToken': getCookie('csrftoken') },
+      }).then((response) => {
+        if (response.data.msg === DIC.STATUS_CODE.Success) {
+          this.$options.methods.submitPay(this);
+        } else if (response.data.msg === DIC.STATUS_CODE['Verify Code Error']) {
+          this.$alert('验证码错误', '警告', {
+            confirmButtonText: '确定',
+            callback: () => {
+              this.$message({
+                type: 'info',
+                message: '注意输入正确的验证码哦！',
+              });
+            },
+          });
+        } else {
+          this.$alert('客户已存在', '警告', {
+            confirmButtonText: '确定',
+            callback: () => {
+              this.$message({
+                type: 'info',
+                message: '注意输入正确的孩子姓名和手机号哦！',
+              });
+            },
+          });
+        }
+      });
+    },
+    /**
+     * @function logphone
+     * @description 验证通过手机号和验证码登录是否成功
+     */
+    logphone() {
+      if (this.ruleForm.tel === '' || this.ruleForm.con === '') {
+        this.$toast({
+          message: '输入不能为空',
+          iconClass: 'mint-toast-icon mintui mintui-field-error',
+        });
+        return;
+      }
+      this.axios({
+        method: 'post',
+        url: 'customer/login_code',
+        data: {
+          username: this.ruleForm.tel,
+          code: this.ruleForm.con,
+        },
+        headers: { 'X-CSRFToken': getCookie('csrftoken') },
+      }).then((response) => {
+        if (response.data.msg === DIC.STATUS_CODE.Success) {
+          this.$router.push({ name: 'adult',
+            params: { user: this.ruleForm.tel } });
+        } else if (response.data.msg === DIC.STATUS_CODE['Verify Code Error']) {
+          this.$alert('验证码错误', '警告', {
+            confirmButtonText: '确定',
+            callback: () => {
+              this.$message({
+                type: 'info',
+                message: '注意输入正确的验证码哦！',
+              });
+            },
+          });
+        } else if (response.data.msg === DIC.STATUS_CODE['User Not Found']) {
+          this.$alert('未找到用户', '警告', {
+            confirmButtonText: '确定',
+            callback: () => {
+              this.$message({
+                type: 'info',
+                message: '注意输入正确的用户名哦！',
+              });
+            },
+          });
+        } else {
+          this.$alert('身份错误', '警告', {
+            confirmButtonText: '确定',
+            callback: () => {
+              this.$message({
+                type: 'info',
+                message: '注意选择正确的身份哦！',
+              });
+            },
+          });
+        }
+      });
+    },
+    /**
+     * @function logpass
+     * @description 验证手机密码登录是否成功
+     */
+    logpass() {
+      if (this.ruleForm3.tel === '' || this.ruleForm3.pass === '') {
+        this.$toast({
+          message: '输入不能为空',
+          iconClass: 'mint-toast-icon mintui mintui-field-error',
+        });
+        return;
+      }
+      this.axios({
+        method: 'post',
+        url: 'customer/login_password',
+        data: {
+          username: this.ruleForm3.tel,
+          password: this.ruleForm3.pass,
+        },
+        headers: { 'X-CSRFToken': getCookie('csrftoken') },
+      }).then((response) => {
+        if (response.data.msg === DIC.STATUS_CODE.Success) {
+          this.$router.push({ name: 'adult',
+            params: { user: this.ruleForm3.tel } });
+        } else if (response.data.msg ===
+        DIC.STATUS_CODE['Password Not Match']) {
+          this.$alert('密码错误', '警告', {
+            confirmButtonText: '确定',
+            callback: () => {
+              this.$message({
+                type: 'info',
+                message: '注意输入正确的密码哦！',
+              });
+            },
+          });
+        } else if (response.data.msg === DIC.STATUS_CODE['User Not Found']) {
+          this.$alert('未找到用户', '警告', {
+            confirmButtonText: '确定',
+            callback: () => {
+              this.$message({
+                type: 'info',
+                message: '注意输入正确的用户名哦！',
+              });
+            },
+          });
+        } else {
+          this.$alert('身份错误', '警告', {
+            confirmButtonText: '确定',
+            callback: () => {
+              this.$message({
+                type: 'info',
+                message: '注意选择正确的身份哦！',
+              });
+            },
+          });
+        }
+      });
+    },
+  },
+};
+&lt;/script>
+&lt;style scoped>
+.head {
+  background-color: rgba(0, 153, 255, 0.945);
+  width: 70%;
+  height: 90px;
+  margin-bottom: -40px;
+}
+.swip {
+  margin-top: 5%;
+  height: 250px;
+  width: 100%;
+}
+.foot {
+  background: #001829;
+  color: #666;
+  text-align: center;
+}
+&lt;/style>
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Sun Sep 02 2018 00:08:19 GMT+0800 (GMT+08:00) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>
